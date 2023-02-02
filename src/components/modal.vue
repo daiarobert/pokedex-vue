@@ -324,8 +324,8 @@ export default {
 @media screen and (max-width: 768px) {
   .modal-content {
     flex-direction: column !important;
-    max-height: 90% !important;
-    max-width: 100% !important;
+    max-height: 90vh !important;
+    max-width: 100vw !important;
     padding: 0 !important;
   }
   .list {
