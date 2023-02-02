@@ -175,8 +175,8 @@ export default {
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.235);
   padding: 20px;
-  max-height: 70vh;
-  max-width: 60vw;
+  min-height: 70vh;
+  min-width: 60vw;
   background-color: #f1f1f1 !important;
   border-radius: 25px;
   flex-direction: row !important;
@@ -324,8 +324,8 @@ export default {
 @media screen and (max-width: 768px) {
   .modal-content {
     flex-direction: column !important;
-    max-height: 100vh !important;
-    max-width: 100vw !important;
+    /* max-height: 100vh !important;
+    max-width: 100vw !important; */
     min-height: 100vh !important;
     min-width: 100vw !important;
     padding: 0 !important;
