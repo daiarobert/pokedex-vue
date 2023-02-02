@@ -164,10 +164,12 @@ export default {
   right: 0;
   bottom: 0;
   background-color: rgb(0, 0, 0);
+  height: 100vh;
   z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden !important;
 }
 
 .modal-content {
@@ -327,7 +329,7 @@ export default {
     flex-direction: column !important;
     /* max-height: 100vh !important;
     max-width: 100vw !important; */
-    min-height: 100% !important;
+    min-height: 100vh !important;
     min-width: 108% !important;
     padding: 0 !important;
     border-radius: 0px !important;
