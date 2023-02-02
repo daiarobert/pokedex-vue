@@ -175,8 +175,9 @@ export default {
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.235);
   padding: 20px;
-  height: 70%;
-  width: 55% !important;
+  max-height: 70vh;
+  max-width: 55vw;
+  min-width: 55vw;
   background-color: #f1f1f1 !important;
   border-radius: 25px !important;
   flex-direction: row !important;
