@@ -175,8 +175,8 @@ export default {
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.235);
   padding: 20px;
-  min-height: 70vh;
-  min-width: 60vw;
+  min-height: 70%;
+  min-width: 60%;
   background-color: #f1f1f1 !important;
   border-radius: 25px;
   flex-direction: row !important;
@@ -327,11 +327,12 @@ export default {
     flex-direction: column !important;
     /* max-height: 100vh !important;
     max-width: 100vw !important; */
-    min-height: 100vh !important;
-    min-width: 100vw !important;
+    min-height: 100% !important;
+    min-width: 108% !important;
     padding: 0 !important;
     border-radius: 0px !important;
   }
+
   .list {
     max-height: 340px;
   }
@@ -346,6 +347,10 @@ export default {
     min-width: 200px !important;
     max-height: 150px !important;
     min-height: 150px !important;
+  }
+  .top-card {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
   }
   .stats {
     font-size: 12px;
