@@ -176,8 +176,7 @@ export default {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.235);
   padding: 20px;
   max-height: 70vh;
-  max-width: 55vw;
-  min-width: 55vw;
+  max-width: 60vw;
   background-color: #f1f1f1 !important;
   border-radius: 25px !important;
   flex-direction: row !important;
@@ -225,11 +224,6 @@ export default {
   padding: 5px;
   min-width: 110px;
   max-width: 130px;
-  /* font-size: 10px; */
-
-  /* font-family: termina, sans-serif;
-  text-transform: uppercase; */
-  /* text-transform: uppercase; */
   background-color: black;
   color: white;
 }
@@ -268,7 +262,6 @@ export default {
 }
 .menu {
   display: grid;
-  /* grid-template-rows: 40px max-content; */
   gap: 10px;
 }
 
@@ -331,8 +324,8 @@ export default {
 @media screen and (max-width: 768px) {
   .modal-content {
     flex-direction: column !important;
-    height: 90% !important;
-    width: 100% !important;
+    max-height: 90% !important;
+    max-width: 100% !important;
     padding: 0 !important;
   }
   .list {
