@@ -178,7 +178,7 @@ export default {
   max-height: 70vh;
   max-width: 60vw;
   background-color: #f1f1f1 !important;
-  border-radius: 25px !important;
+  border-radius: 25px;
   flex-direction: row !important;
 }
 .left {
@@ -324,11 +324,12 @@ export default {
 @media screen and (max-width: 768px) {
   .modal-content {
     flex-direction: column !important;
-    max-height: 90vh !important;
+    max-height: 100vh !important;
     max-width: 100vw !important;
-    min-height: 90vh !important;
+    min-height: 100vh !important;
     min-width: 100vw !important;
     padding: 0 !important;
+    border-radius: 0px !important;
   }
   .list {
     max-height: 340px;
