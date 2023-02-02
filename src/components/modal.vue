@@ -326,6 +326,8 @@ export default {
     flex-direction: column !important;
     max-height: 90vh !important;
     max-width: 100vw !important;
+    min-height: 90vh !important;
+    min-width: 100vw !important;
     padding: 0 !important;
   }
   .list {
