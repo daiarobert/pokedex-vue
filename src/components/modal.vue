@@ -180,6 +180,7 @@ export default {
   background-color: #f1f1f1 !important;
   border-radius: 25px;
   flex-direction: row !important;
+  overflow: hidden;
 }
 .left {
   align-items: center;
